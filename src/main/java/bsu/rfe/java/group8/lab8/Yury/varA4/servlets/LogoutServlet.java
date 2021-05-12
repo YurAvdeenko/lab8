@@ -5,7 +5,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import entity.ChatUser;
+import bsu.rfe.java.group8.lab8.Yury.varA4.entity.ChatUser;
 
 public class LogoutServlet extends ChatServlet {
 

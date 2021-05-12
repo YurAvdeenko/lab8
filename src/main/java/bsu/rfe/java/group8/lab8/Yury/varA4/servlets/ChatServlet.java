@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
-import entity.ChatMessage;
-import entity.ChatUser;
+import bsu.rfe.java.group8.lab8.Yury.varA4.entity.ChatMessage;
+import bsu.rfe.java.group8.lab8.Yury.varA4.entity.ChatUser;
 
 public class ChatServlet extends HttpServlet {
 
