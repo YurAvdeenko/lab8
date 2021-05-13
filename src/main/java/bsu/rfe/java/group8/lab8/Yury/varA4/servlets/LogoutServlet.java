@@ -34,15 +34,15 @@ public class LogoutServlet extends ChatServlet {
                 // Сбросить ID сессии в cookie
                 response.addCookie(new Cookie("sessionId", null));
                 // Перенаправить на главную страницу
-                response.sendRedirect(response.encodeRedirectURL("/chat/"));
+                response.sendRedirect(response.encodeRedirectURL("/lab8/"));
             } else {
                 // Пользователь пытается аннулировать чужую сессию –
                 // не делать ничего
-                response.sendRedirect(response.encodeRedirectURL("/chat/view.htm"));
+                response.sendRedirect(response.encodeRedirectURL("/lab8/view.htm"));
             }
         } else {
             // Перенаправить пользователя на главное окно чата
-            response.sendRedirect(response.encodeRedirectURL("/chat/view.htm"));
+            response.sendRedirect(response.encodeRedirectURL("/lab8/view.htm"));
         }
     }
 }

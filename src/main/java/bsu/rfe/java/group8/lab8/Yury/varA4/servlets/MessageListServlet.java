@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import bsu.rfe.java.group8.lab8.Yury.varA4.entity.ChatMessage;
 
-
 public class MessageListServlet extends ChatServlet {
 
     private static final long serialVersionUID = 1L;

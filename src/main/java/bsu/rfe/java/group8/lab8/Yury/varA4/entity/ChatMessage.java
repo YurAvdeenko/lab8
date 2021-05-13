@@ -8,7 +8,7 @@ public class ChatMessage {
     // Временная метка сообщения (в микросекундах)
     private long timestamp;
     // Отображенпя сообщения за х последних секунд
-    private long sek = 60;
+    private long sek = 30;
 
     public ChatMessage(String message, ChatUser author, long timestamp) {
         super();
@@ -45,8 +45,4 @@ public class ChatMessage {
         return sek;
     }
 
-    //менять не будем
-  /*public void setSek(long sek) {
-   	this.sek = sek;
-   	}*/
 } 
